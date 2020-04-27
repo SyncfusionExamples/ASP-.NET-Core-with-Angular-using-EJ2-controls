@@ -1,0 +1,25 @@
+#dashboard_default .e-panel .e-panel-container .content {
+  vertical-align: middle;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  line-height: 90px;
+}
+
+div#properties {
+  width: 400px;
+  margin: 10px;
+  padding: 15px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+div#control {
+  width: 100%;
+}
+
+table {
+  border: 0.2px solid #c4bfbf;
+}
