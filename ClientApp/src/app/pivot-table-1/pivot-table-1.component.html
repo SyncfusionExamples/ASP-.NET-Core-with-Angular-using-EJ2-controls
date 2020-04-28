@@ -1,0 +1,22 @@
+<div class="control-section" id="webpage">
+  <div id="properties">
+    <div style="margin-top:10px;">
+      <button ejs-button id='loadBtn1' class="inner" #loadBtn1 cssClass="e-primary" (click)='onLoadClick1($event)'>Load 1 M rows</button>
+    </div>
+    <div style="margin-top:10px">
+      <button ejs-button id='loadBtn2' class="inner" #loadBtn2 cssClass="e-primary" (click)='onLoadClick2($event)'>Add 10 rows</button>
+    </div>
+    <div style="margin-top:10px;margin-left:5%">
+      <span id=symbol>OR</span>
+    </div>
+    <div style="margin-top:10px">
+      <button ejs-button id='loadBtn3' class="inner" #loadBtn3 cssClass="e-primary" (click)='onLoadClick3($event)'>Add 10K rows</button>
+    </div>
+  </div>
+  <br/>
+  <div class="inline" id="control">
+    <ejs-pivotview #pivotview id='PivotView' [dataSourceSettings]=dataSourceSettings width='900' height='450' enableVirtualization='true'
+                   [gridSettings]='gridSettings' (dataBound)='ondataBound($event)' showFieldList="true">
+    </ejs-pivotview>
+  </div>
+</div>
