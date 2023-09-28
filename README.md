@@ -26,7 +26,7 @@ cd ASP-.NET-Core-with-Angular-using-EJ2-controls
 SET ASPNETCORE_Environment=Development
 ```
 
-> FOr Linux or macOS, run the `export ASPNETCORE_ENVIRONMENT=Development` command in the terminal.
+> For Linux or macOS, run the `export ASPNETCORE_ENVIRONMENT=Development` command in the terminal.
 
 ## Installing Packages
 
